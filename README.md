@@ -153,6 +153,40 @@ python -m src.explain --sample 3
 
 ---
 
+## Key Visualizations & Model Artifacts
+
+### Exploratory Data Analysis (EDA)
+
+| Feature Correlations | Top 5 Features Pairplot |
+|:---:|:---:|
+| ![Correlation Heatmap](outputs/plots/correlation_heatmap.png) | ![Pairplot](outputs/plots/pairplot_top5.png) |
+
+---
+
+### Model Performance & Evaluation
+
+| Classification Overview | ROC-AUC Curves |
+|:---:|:---:|
+| ![Classification Overview](outputs/plots/cls_overview.png) | ![ROC AUC Curves](outputs/plots/cls_roc_auc.png) |
+
+| Regression Overview | Regression R² Comparison |
+|:---:|:---:|
+| ![Regression Overview](outputs/plots/reg_overview.png) | ![Regression R2](outputs/plots/reg_r2.png) |
+
+---
+
+### Explainable AI (SHAP & Feature Importance)
+
+| SHAP Summary (Beeswarm) | SHAP Individual Patient Waterfall |
+|:---:|:---:|
+| ![SHAP Summary](outputs/plots/shap_summary.png) | ![SHAP Waterfall](outputs/plots/shap_waterfall_sample.png) |
+
+| Random Forest Feature Importance | XGBoost Feature Importance |
+|:---:|:---:|
+| ![RF Feature Importance](outputs/plots/feature_importance_cls_random_forest.png) | ![XGB Feature Importance](outputs/plots/feature_importance_cls_xgboost.png) |
+
+---
+
 ## Pipeline Design Principles
 
 - **No data leakage**: `StandardScaler` fitted on training data only
