@@ -1,0 +1,8 @@
+Model,MAE,RMSE,R²,CV R²,Mode,Accuracy,Precision,Recall,F1,ROC-AUC,CV Accuracy
+Linear Regression,0.6473,0.8923,0.5764,0.6228,Regression,,,,,,
+Decision Tree,0.4936,0.7632,0.6901,0.3432,Regression,,,,,,
+Random Forest,0.5476,0.7408,0.7080,0.6058,Regression,,,,,,
+XGBoost,0.5088,0.6982,0.7407,0.5277,Regression,,,,,,
+Decision Tree,,,,,Classification,0.8148,0.7419,0.9200,0.8214,0.8262,0.8549
+Random Forest,,,,,Classification,0.8519,0.7931,0.9200,0.8519,0.9697,0.8877
+XGBoost,,,,,Classification,0.8333,0.7667,0.9200,0.8364,0.9476,0.8924
